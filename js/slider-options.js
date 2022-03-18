@@ -8,6 +8,22 @@ $(document).ready(function () {
         easing: 'ease',
         infinite: true,
         autoplay: true,
-        autoplaySpeed: 2500,
-    });
+        autoplaySpeed: 2500
+    })
+});
+
+$(document).ready(function () {
+    $('.project__slider').slick({
+        arrows: true,
+        dots: false,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        infinite: false,
+        autoplay: false,
+        speed: 500,
+        easing: 'ease',
+        draggable: false,
+        waitForAnimate: true,
+        appendArrows: ('.project__header_arrows')
+    })
 });

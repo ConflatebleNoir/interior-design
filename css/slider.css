@@ -49,6 +49,8 @@
 /* Элемент точки */
 .slick-dots li button{}
 
+/* header slider */
+
 .header__container .slider__header .slick-dots
 {
     display: flex;
@@ -85,4 +87,66 @@
     background-color: #fff;
     opacity: 1;
     transition: all ease .3s;
+}
+
+/* project slider */
+
+.project__slider
+{
+    position: relative;
+}
+
+.project__slider, .project__slider .slider__item
+{
+    min-width: 0;
+}
+
+.slider__item
+{
+    padding-right: 30px;
+}
+
+.project__slider .slick-list
+{
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.project__slider .slick-track
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.project__header_arrows .slick-arrow
+{
+    z-index: 10;
+    font-size: 0;
+    width: 42px;
+    height: 42px;
+}
+
+.project__header_arrows .slick-arrow.slick-prev
+{
+    background: url(../images/arrow-left.jpg) 0 0 / 100% no-repeat;
+}
+
+.project__header_arrows .slick-arrow.slick-next
+{
+    background: url(../images/arrow-right.jpg) 0 0 / 100% no-repeat;
+}
+
+.project__header_arrows .slick-prev.slick-disabled
+{
+    background: url(../images/arrow-left-dis.jpg) 0 0 / 100% no-repeat;
+}
+
+.project__header_arrows .slick-next.slick-disabled
+{
+    background: url(../images/arrow-right-dis.jpg) 0 0 / 100% no-repeat;
 }

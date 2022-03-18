@@ -19,27 +19,43 @@
                     <img src="images/header-logo.svg" alt="logo" class="logo">
                 </div>
                 <ul class="header__menu">
-                    <li class="menu__item">Услуги</li>
-                    <li class="menu__item">Портфолио</li>
-                    <li class="menu__item">Цены</li>
-                    <li class="menu__item">О нас</li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__item_link">
+                            Услуги
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__item_link">
+                            Портфолио
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__item_link">
+                            Цены
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__item_link">
+                            О нас
+                        </a>
+                    </li>
                 </ul>
             </section>
             <div class="slider__header">
                 <article class="slider__item">
                     <h2 class="item__title">Дизайн интерьера от картинки до реализации
                     </h2>
-                    <a href="#" class="item__button">Заказать дизайн</a>
+                    <a href="#order-form" class="item__button">Заказать дизайн</a>
                 </article>
                 <article class="slider__item">
                     <h2 class="item__title">Дизайн интерьера от картинки до реализации
                     </h2>
-                    <a href="#" class="item__button">Заказать дизайн</a>
+                    <a href="#order-form" class="item__button">Заказать дизайн</a>
                 </article>
                 <article class="slider__item">
                     <h2 class="item__title">Дизайн интерьера от картинки до реализации
                     </h2>
-                    <a href="#" class="item__button">Заказать дизайн</a>
+                    <a href="#order-form" class="item__button">Заказать дизайн</a>
                 </article>
             </div>
         </div>
@@ -89,7 +105,7 @@
             <p class="order__description">Новый способ для профессионалов интерьера покупать мебель. Просмотрите
                 миллионы продуктов от ведущих мировых брендов.
             </p>
-            <button class="order__button">Заказать дизайн</button>
+            <a href="#order-form" class="order__button">Заказать дизайн</a>
         </section>
         <section class="main__sponsors examples">
             <div class="examples__wrapper">
@@ -194,7 +210,7 @@
                         Установка на месте, включая сборку, размещение, снятие зацепов и удаление упаковки. Мы объединим
                         заказы от нескольких поставщиков и доставим их по необходимости.
                     </p>
-                    <button class="concern__button">Заказать дизайн</button>
+                    <a href="#order-form" class="concern__button">Заказать дизайн</a>
                 </div>
             </div>
         </section>
@@ -208,26 +224,34 @@
                         <img src="images/feedback-kirill.svg" alt="feedback photo">
                     </div>
                     <div class="feedback__block">
-                        <h4 class="feedback__name">
-                            Кирилл Тимофеев
-                        </h4>
-                        <p class="feedback__description">
-                            Все было сделано отлично. Особенно это понимаешь после того, как прожил несколько месяцев в
-                            реализованном интерьере.Студия смогла предложить нам интересные идеи, детали для оформления
-                            интерьера. При этом все предложенные и реализованные решения радуют нас ежедневно.
-                        </p>
+                        <div class="feedback__block_container">
+                            <h4 class="feedback__name">
+                                Кирилл Тимофеев
+                            </h4>
+                            <p class="feedback__description">
+                                Все было сделано отлично. Особенно это понимаешь после того, как прожил несколько
+                                месяцев в
+                                реализованном интерьере.Студия смогла предложить нам интересные идеи, детали для
+                                оформления
+                                интерьера. При этом все предложенные и реализованные решения радуют нас ежедневно.
+                            </p>
+                        </div>
                     </div>
                 </div>
                 <div class="feedback__wrapper">
                     <div class="feedback__block">
-                        <h4 class="feedback__name">
-                            Петр Морозов
-                        </h4>
-                        <p class="feedback__description">
-                            У нас было изначально понимание того, что ремонт в своей квартире мы будем делать своими
-                            силами. Ваши работы нам очень нравятся — цветовые решения, планировки и т.д. — поэтому были
-                            очень благодарны, что вы предложили такую форму сотрудничества, как платная консультация.
-                        </p>
+                        <div class="feedback__block_container">
+                            <h4 class="feedback__name">
+                                Петр Морозов
+                            </h4>
+                            <p class="feedback__description">
+                                У нас было изначально понимание того, что ремонт в своей квартире мы будем делать своими
+                                силами. Ваши работы нам очень нравятся — цветовые решения, планировки и т.д. — поэтому
+                                были
+                                очень благодарны, что вы предложили такую форму сотрудничества, как платная
+                                консультация.
+                            </p>
+                        </div>
                     </div>
                     <div class="feedback__image">
                         <img src="images/feedback-petr.svg" alt="feedback photo">
@@ -238,22 +262,35 @@
                         <img src="images/feedback-alina.svg" alt="feedback photo">
                     </div>
                     <div class="feedback__block">
-                        <h4 class="feedback__name">
-                            Алина Богданова
-                        </h4>
-                        <p class="feedback__description">
+                        <div class="feedback__block_container">
+                            <h4 class="feedback__name">
+                                Алина Богданова
+                            </h4>
+                            <p class="feedback__description">
+                                После первой консультации у меня была полная неразбериха в голове, но потом я все
+                                обдумала и мне очень понравились новые идеи. У меня, так сказать, появилось новое
+                                вдохновение. Для меня это было ценно.Стало проще. Многие вопросы, по которым я никак не
+                                могла принять решения — разрешились.
 
-                        </p>
+                            </p>
+                        </div>
                     </div>
                 </div>
                 <div class="feedback__wrapper">
                     <div class="feedback__block">
-                        <h4 class="feedback__name">
-
-                        </h4>
-                        <p class="feedback__description">
-
-                        </p>
+                        <div class="feedback__block_container">
+                            <h4 class="feedback__name">
+                                Мария Сахорова
+                            </h4>
+                            <p class="feedback__description">
+                                Здорово каждый день ощущать, что планировка квартиры очень продуманная. Проявляется это
+                                в
+                                мелочах, но из них и складывается комфорт. Решение с проемом, соединяющим кухню и
+                                гостиную —
+                                главная фишка — позволила вытянуть изначально безнадёжную планировку и сделать подобие
+                                большой гостиной.
+                            </p>
+                        </div>
                     </div>
                     <div class="feedback__image">
                         <img src="images/feedback-maria.svg" alt="feedback photo">
@@ -261,8 +298,137 @@
                 </div>
             </div>
         </section>
+        <section class="main__project">
+            <div class="project__container">
+                <div class="project__header">
+                    <h2 class="project__title">Проекты</h2>
+                    <div class="project__header_arrows"></div>
+                </div>
+                <div class="project__slider">
+                    <div class="slider__item">
+                        <div class="item__image">
+                            <img src="images/projects-mscc.svg" alt="project Moscow Ciry">
+                        </div>
+                        <div class="item__info">
+                            <h3 class="info__title">Москва-Сити</h3>
+                            <p class="info__description">Эти апартаменты, на 79-м этаже башни Федерация в Москва-Сити,
+                                предназначены для посуточной аренды в AirBnB. Каждый желающий сможет тут переночевать.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="slider__item">
+                        <div class="item__image">
+                            <img src="images/project-ss.svg" alt="project SS70">
+                        </div>
+                        <div class="item__info">
+                            <h3 class="info__title">SS70</h3>
+                            <p class="info__description">Эта квартира в ЖК Сердце столицы, ещё в процессе согласования.
+                                И, чем дальше мы двигаемся по правкам, тем больше клиент склоняется к первому варианту
+                            </p>
+                        </div>
+                    </div>
+                    <div class="slider__item">
+                        <div class="item__image">
+                            <img src="images/project-voron.svg" alt="project Voron">
+                        </div>
+                        <div class="item__info">
+                            <h3 class="info__title">Voron, 170
+                            </h3>
+                            <p class="info__description">Стена за телевизором, это архитектурный бетон. По заказу
+                                клиента выполненный в стилистике природного камня.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="slider__item">
+                        <div class="item__image">
+                            <img src="images/project-studio.svg" alt="project Studio">
+                        </div>
+                        <div class="item__info">
+                            <h3 class="info__title">Studio, 80</h3>
+                            <p class="info__description">Квартира без стен с единым пространством, открытым потолком и
+                                темными стенами, с акцентом на центральную колонну.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="slider__item">
+                        <div class="item__image">
+                            <img src="images/projects-mscc.svg" alt="project Moscow Ciry">
+                        </div>
+                        <div class="item__info">
+                            <h3 class="info__title">Москва-Сити</h3>
+                            <p class="info__description">Эти апартаменты, на 79-м этаже башни Федерация в Москва-Сити,
+                                предназначены для посуточной аренды в AirBnB. Каждый желающий сможет тут переночевать.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="slider__item">
+                        <div class="item__image">
+                            <img src="images/project-ss.svg" alt="project SS70">
+                        </div>
+                        <div class="item__info">
+                            <h3 class="info__title">SS70</h3>
+                            <p class="info__description">Эта квартира в ЖК Сердце столицы, ещё в процессе согласования.
+                                И, чем дальше мы двигаемся по правкам, тем больше клиент склоняется к первому варианту
+                            </p>
+                        </div>
+                    </div>
+                    <div class="slider__item">
+                        <div class="item__image">
+                            <img src="images/project-voron.svg" alt="project Voron">
+                        </div>
+                        <div class="item__info">
+                            <h3 class="info__title">Voron, 170
+                            </h3>
+                            <p class="info__description">Стена за телевизором, это архитектурный бетон. По заказу
+                                клиента выполненный в стилистике природного камня.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="slider__item">
+                        <div class="item__image">
+                            <img src="images/project-studio.svg" alt="project Studio">
+                        </div>
+                        <div class="item__info">
+                            <h3 class="info__title">Studio, 80</h3>
+                            <p class="info__description">Квартира без стен с единым пространством, открытым потолком и
+                                темными стенами, с акцентом на центральную колонну.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="order-form" class="main__form">
+            <div class="form__container">
+                <h2 class="form__title">Оставьте ваш Email и мы свяжемся с вами</h2>
+                <form action="" class="form__wrapper">
+                    <input class="form__email" type="email" name="email" id="email" placeholder="Email">
+                    <input class="form__submit" type="submit" placeholder="Отправить">
+                </form>
+            </div>
+        </section>
     </main>
-    <footer></footer>
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__logo">
+                <img src="images/footer-logo.svg" alt="footer logo">
+            </div>
+            <div class="footer__link">
+                <a href="#" class="link__item">
+                    <img src="images/instagram.svg" alt="Instagram label">
+                </a>
+                <a href="#" class="link__item">
+                    <img src="images/dribbble.svg" alt="Dribble label">
+                </a>
+                <a href="#" class="link__item">
+                    <img src="images/twitter.svg" alt="Twitter label">
+                </a>
+                <a href="#" class="link__item">
+                    <img src="images/youtube.svg" alt="Youtube label">
+                </a>
+            </div>
+        </div>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.6.0.js"
         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="js/app.js"></script>
@@ -270,6 +436,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.Marquee/1.6.0/jquery.marquee.min.js"></script>
     <script src="js/slider-options.js"></script>
     <script src="js/marquee-options.js"></script>
+    <script src="js/anchor.js"></script>
 </body>
 
 </html>
